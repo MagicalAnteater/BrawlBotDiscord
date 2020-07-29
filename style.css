@@ -6,6 +6,10 @@ body{
     background-image: url("https://media.discordapp.net/attachments/733827143158726767/738040824402542602/image0.png");
 }
 header{
+    font-family: Comfortaa, "Comfortaa";
+    color: white;
+    font-size: 40px;
+    text-align: center;
     top:0px;
     left:0px;
     width:800px;
@@ -19,6 +23,10 @@ nav{
     width:800px;
     height:50px;
     background: #4861ab;
+    font-family: Comfortaa, "Comfortaa";
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 button{
@@ -75,7 +83,17 @@ footer{
     right: -125px;
 }
     
-    
+.commandsbtn{
+    position:absolute;
+    top: 80px;
+    right: 30px;
+}
+
+.spbtn{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
     
     
     
@@ -127,8 +145,4 @@ button:hover:before {
  filter: blur(20px); 
  opacity: 1; 
  animation: animate 8s linear infinite; 
-}    
-    
-    
-    
-    
+}
