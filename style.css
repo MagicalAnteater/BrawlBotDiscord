@@ -2,11 +2,16 @@
     margin:0px;
     padding:0px;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
 body{
     background-image: url("https://media.discordapp.net/attachments/733827143158726767/738040824402542602/image0.png");
 }
 header{
-    font-family: Comfortaa, "Comfortaa";
+    font-family: "Lilita One", cursive;
     color: white;
     font-size: 40px;
     text-align: center;
@@ -23,14 +28,14 @@ nav{
     width:800px;
     height:50px;
     background: #4861ab;
-    font-family: Comfortaa, "Comfortaa";
+    font-family: "Lilita One", cursive;
     font-size: 20px;
     color: white;
     text-align: center;
 }
 
 button{
-    font-family: Comfortaa, "Comfortaa";
+    font-family: "Lilita One", cursive;
     font-size: 25px;
     color: white;
     margin: 50px;
@@ -54,7 +59,7 @@ section{
 
 aside{
     position: absolute;
-    font-family: Comfortaa, "Comfortaa";
+    font-family: "Lilita One", cursive;
     font-size: 20px;
     color: white;
     top:100px;
@@ -75,32 +80,33 @@ footer{
     
 .addbotbtn{
     position:absolute;
-    left: 145px;
+    left: 400px;
     }
 
 .votebtn{
     position:absolute;
-    right: -125px;
+    left: 150px;
+    
 }
     
 .commandsbtn{
     position:absolute;
-    top: 80px;
-    right: 30px;
+    left: 400px;
+    top: 100px;
 }
 
 .spbtn{
     position: absolute;
-    top: 170px;
-    left: 100px;
-}
+    left: 150px;
+    top: 100px;
+    }
     
     
     
     
  
 button{
-font-family: Comfortaa, "Comfortaa";
+font-family: "Lilita One", cursive;
 font-size: 25px;
 color: white;
  transform: translate(-50%,-50%); 
@@ -145,4 +151,30 @@ button:hover:before {
  filter: blur(20px); 
  opacity: 1; 
  animation: animate 8s linear infinite; 
+}
+
+
+
+
+
+
+
+footer{
+    font-family: "Lilita One", cursive;
+  user-select: none;
+  font-size: 50px;
+  color: white;
+  background: repeating-linear-gradient(90deg, #e70ab4, #fe9b4d, #fdc034, #fdc034, #fe9b4d, #e70ab4);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 2s linear infinite forwards;
+}
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 600vw;
+  }
 }
