@@ -1,101 +1,74 @@
-body{
-    background: url("https://media.discordapp.net/attachments/733827143158726767/738040824402542602/image0.png")
+*{ 
+    margin: 0px;
+    padding: 0px;
 }
-
-header{
-    font-family: "Lilita One", cursive;
-    color: white;
-    font-size: 20px;
-}
-
-
-
-
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url("https://www.fonts.com/font/fontfabric/uni-sans/heavy");
 
 
-
-
-
-
-
-
-
-
-button{
-position: absolute;
-top: 100px;
-left: 750px;
-font-family: Lilita One, "";
-font-size: 25px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-button{
-position: absolute;
-top: 100px;
-left: 750px;
-font-family: Comfortaa, "Comfortaa";
-font-size: 25px;
-color: white;
- transform: translate(-50%,-50%); 
- width: 200px; 
- height: 60px; 
- text-align: center; 
- line-height: 60px;
- text-transform: uppercase; 
- text-decoration: none;
- box-sizing: border-box; 
- background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4); 
- background-size: 400%; 
- border-radius: 30px; 
- z-index: 1;  
-} 
-button:hover { 
- animation: animate 8s linear infinite; 
-} 
-@keyframes animate { 
- 0% { 
-  background-position: 0%; 
- } 
- 100% { 
-  background-position: 400%; 
- } 
-} 
-button:before { 
- content: ''; 
- top: -5px; 
- bottom: -5px; 
- right: -5px; 
- left: -5px; 
- z-index: -1; 
- background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4); 
- background-size: 400%; 
- border-radius: 40px; 
- filter: blur(20px); 
- opacity: 0; 
- transition: 0.5s; 
-} 
-button:hover:before { 
- filter: blur(20px); 
- opacity: 1; 
- animation: animate 8s linear infinite; 
+body{
+    background: #363636;
 }
+header{
+    font-family: "Lilita One", cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 30px{
+    border-radius: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lilita One", cursive;
+    background: linear-gradient(90deg, #b39cff,#ff9cac)
+}
+
+px;
+    background: #474747;
+}
+
+button{
+    border-radius: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lilita One", cursive;
+    background: linear-gradient(90deg, #b39cff,#ff9cac)
+}
+
+
+section{
+    font-family: "Lilita One", cursive;
+    color: #fff;
+    background: #575757;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.Title{
+    font-size: 30px;
+}
+
+.Para{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
