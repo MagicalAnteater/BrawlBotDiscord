@@ -1,0 +1,63 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url("https://www.fonts.com/font/fontfabric/uni-sans/heavy");
+
+
+body{
+    background: #363636;
+}
+header{
+    font-family: "Lilita One", cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 30px{
+    border-radius: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lilita One", cursive;
+    background: linear-gradient(90deg, #570000,#750101)
+}
+
+px;
+    background: #474747;
+}
+
+button{
+    border-radius: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lilita One", cursive;
+    background: linear-gradient(90deg, #570000,#750101)
+}
+
+
+section{
+    font-family: "Lilita One", cursive;
+    color: #fff;
+    background: #575757;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.Title{
+    font-size: 30px;
+}
+
+.Para{
+    font-size: 25px;
+}
