@@ -35,6 +35,7 @@ section{
 
 body{
     background: #363636;
+    list-style: none;
 }
 header{
     color: white;
